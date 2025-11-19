@@ -1,6 +1,6 @@
 module github.com/aquasecurity/tracee
 
-go 1.17
+go 1.24.0
 
 require (
 	github.com/Masterminds/sprig/v3 v3.2.2
@@ -16,8 +16,8 @@ require (
 	github.com/syndtr/gocapability v0.0.0-20200815063812-42c35b437635
 	github.com/testcontainers/testcontainers-go v0.12.0
 	github.com/urfave/cli/v2 v2.3.0
-	golang.org/x/net v0.0.0-20211111083644-e5c967477495
-	golang.org/x/sys v0.0.0-20211205182925-97ca703d548d
+	golang.org/x/net v0.47.0
+	golang.org/x/sys v0.38.0
 	gotest.tools v2.2.0+incompatible
 	inet.af/netaddr v0.0.0-20211027220019-c74959edd3b6
 )
@@ -77,8 +77,8 @@ require (
 	go.opencensus.io v0.23.0 // indirect
 	go4.org/intern v0.0.0-20211027215823-ae77deb06f29 // indirect
 	go4.org/unsafe/assume-no-moving-gc v0.0.0-20211027215541-db492cf91b37 // indirect
-	golang.org/x/crypto v0.0.0-20201002170205-7f63de1d35b0 // indirect
-	golang.org/x/text v0.3.6 // indirect
+	golang.org/x/crypto v0.45.0 // indirect
+	golang.org/x/text v0.31.0 // indirect
 	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac // indirect
 	google.golang.org/genproto v0.0.0-20210602131652-f16073e35f0c // indirect
 	google.golang.org/grpc v1.38.0 // indirect
